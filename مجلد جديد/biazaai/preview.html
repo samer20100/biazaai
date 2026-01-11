@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معاينة منصة Biazaai</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .content {
+            padding: 40px;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        .feature {
+            background: #f8fafc;
+            border-radius: 15px;
+            padding: 25px;
+            border-left: 5px solid #3b82f6;
+            transition: transform 0.3s;
+        }
+        .feature:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        .feature h3 {
+            color: #3b82f6;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        .screenshots {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .screenshot {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            background: #f1f5f9;
+            padding: 20px;
+            text-align: center;
+        }
+        .screenshot img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .code-preview {
+            background: #1e293b;
+            color: #e2e8f0;
+            padding: 25px;
+            border-radius: 10px;
+            font-family: 'Courier New', monospace;
+            margin: 30px 0;
+            overflow-x: auto;
+        }
+        .buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+        .btn {
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s;
+        }
+        .btn-primary {
+            background: #3b82f6;
+            color: white;
+        }
+        .btn-secondary {
+            background: #f1f5f9;
+            color: #3b82f6;
+            border: 2px solid #3b82f6;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 7px 14px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #f8fafc;
+            color: #64748b;
+            border-top: 1px solid #e2e8f0;
+        }
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            .content { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Biazaai - منصة الذكاء الاصطناعي المتكاملة</h1>
+            <p class="subtitle">معاينة المشروع النهائي الجاهز للإنتاج</p>
+        </header>
+        
+        <div class="content">
+            <h2>✨ المميزات الرئيسية</h2>
+            <div class="features">
+                <div class="feature">
+                    <h3>ذكاء اصطناعي متقدم</h3>
+                    <p>بحث ذكي، إنشاء محتوى، تحليل بيانات، ترجمة، وتلخيص باستخدام أحدث نماذج الذكاء الاصطناعي.</p>
+                </div>
+                <div class="feature">
+                    <h3>أتمتة قنوات التواصل</h3>
+                    <p>دمج واتساب للأعمال وتلجرام للرد الآلي الذكي مع توليد رموز QR للربط السريع.</p>
+                </div>
+                <div class="feature">
+                    <h3>لوحة تحكم شاملة</h3>
+                    <p>تحليلات تفاعلية، إحصائيات حية، رسوم بيانية، وسجلات محادثات كاملة.</p>
+                </div>
+            </div>
+
+            <h2>📱 لقطات من الواجهة</h2>
+            <div class="screenshots">
+                <div class="screenshot">
+                    <div style="background: linear-gradient(135deg, #3b82f6, #8b5cf6); height: 200px; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem;">
+                        الصفحة الرئيسية
+                    </div>
+                    <p>واجهة ترحيبية مع دعوة للأتمتة</p>
+                </div>
+                <div class="screenshot">
+                    <div style="background: linear-gradient(135deg, #10b981, #3b82f6); height: 200px; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem;">
+                        لوحة الأتمتة
+                    </div>
+                    <p>تخصيص ردود واتساب وتلجرام</p>
+                </div>
+                <div class="screenshot">
+                    <div style="background: linear-gradient(135deg, #8b5cf6, #ec4899); height: 200px; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem;">
+                        لوحة التحكم
+                    </div>
+                    <p>تحليلات وأداء القنوات</p>
+                </div>
+            </div>
+
+            <h2>💻 نموذج من الكود</h2>
+            <div class="code-preview">
+                <pre><code>// مثال من منطق الرد الآلي
+async function generateAIResponse(message, channel) {
+    const automation = await Automation.findOne({ channel });
+    if (automation?.settings?.aiEnabled) {
+        const completion = await openai.chat.completions.create({
+            model: 'gpt-4',
+            messages: [{ role: 'user', content: message }],
+        });
+        return completion.choices[0].message.content;
+    }
+    return getRuleBasedResponse(message, channel);
+}
+
+// تكامل واتساب
+app.post('/webhook/whatsapp', (req, res) => {
+    const message = req.body.entry[0].changes[0].value.messages[0];
+    const response = await generateAIResponse(message.text.body, 'whatsapp');
+    await sendWhatsAppMessage(message.from, response);
+    res.sendStatus(200);
+});</code></pre>
+            </div>
+
+            <h2>🚀 كيفية التشغيل</h2>
+            <div class="buttons">
+                <a href="#" class="btn btn-primary">تشغيل الخادم المحلي</a>
+                <a href="#" class="btn btn-secondary">عرض الوثائق</a>
+                <a href="#" class="btn btn-secondary">تحميل الكود المصدري</a>
+            </div>
+            
+            <div style="background: #f0f9ff; padding: 20px; border-radius: 10px; border-left: 5px solid #0ea5e9;">
+                <h3>📦 الملفات المنشأة</h3>
+                <ul style="columns: 2; margin-top: 15px;">
+                    <li><code>client/</code> - تطبيق React كامل</li>
+                    <li><code>server/</code> - خادم Node.js مع API</li>
+                    <li><code>docker-compose.yml</code> - تكوين Docker</li>
+                    <li><code>README.md</code> - وثائق المشروع</li>
+                    <li><code>deploy.sh</code> - سكريبت النشر</li>
+                    <li><code>Dockerfile</code> - تكوين الحاويات</li>
+                </ul>
+            </div>
+        </div>
+        
+        <footer>
+            <p>© 2026 Biazaai - منصة الذكاء الاصطناعي المتكاملة</p>
+            <p>جميع الأقسام جاهزة للإنتاج وتعمل بكفاءة قصوى</p>
+            <p style="margin-top: 15px; font-size: 0.9rem;">
+                <strong>للتشغيل الكامل:</strong> قم بتثبيت Node.js و MongoDB ثم نفذ <code>docker-compose up</code>
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        // إضافة تفاعل بسيط
+        document.querySelectorAll('.btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                if (this.textContent.includes('المحلي')) {
+                    e.preventDefault();
+                    alert('لتشغيل الخادم المحلي:\n1. افتح terminal في مجلد biazaai\n2. نفذ: docker-compose up\n3. افتح http://localhost:3000');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
