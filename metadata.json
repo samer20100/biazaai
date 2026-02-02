@@ -1,0 +1,7 @@
+{
+  "name": "BiazaAI - الذكاء الاصطناعي العربي المتقدم",
+  "description": "نظام ذكاء اصطناعي متكامل يدعم اللغة العربية مع واجهة محادثة ذكية وأتمتة WhatsApp Business. يستخدم DeepSeek Chat API لتوليد ردود ذكية، ويوفر ربطاً تلقائياً مع WhatsApp عبر رمز QR حقيقي.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
