@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="" />
+<img width="1200" height="475" alt="GHBanner" src="https://image2url.com/r2/default/images/1770054727736-5a6df3d2-63f4-4ae1-b210-577096256e77.png" />
 </div>
 
 # BiazaAI - الذكاء الاصطناعي العربي المتقدم
